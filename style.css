@@ -1,0 +1,28 @@
+#title3 {
+    color: brown;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.student-p {
+    color: blanchedalmond;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.registraion-form label {
+    float: left;
+    margin-right: 10px;
+    width: 9%;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.registraion-form .input-field {
+    padding: 6px 3px;
+    margin: 1px 0px;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+}

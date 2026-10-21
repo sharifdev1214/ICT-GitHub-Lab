@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 07 HTML and CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #title2 {
+            color: #000;
+            font-size: 30px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .student-p {
+            color: aqua;
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lab 07 HTML and CSS</h1>
+    <!-- <h1 id="title" style="color: blue;">Student Portal Use inline CSS</h1>
+    <p style="color: red;">This is a normal paragraph.</p>
+    <p class="student" style="float: left; width: 48%;">Ali - BSSE</p>
+    <p class="student" style="float: right; width: 48%;">Ahmed - BSAI</p>
+
+    <h1 id="title2">Student Portal use internal CSS</h1>
+    <p>This is a normal paragraph.</p>
+    <p class="student-p">Ali - BSSE</p>
+    <p class="student-p">Ahmed - BSAI</p>
+
+
+    <h1 id="title3">Student Portal use external CSS</h1>
+    <p>This is a normal paragraph.</p>
+    <p class="student-p3">Ali - BSSE</p>
+    <p class="student-p3">Ahmed - BSAI</p>
+-->
+
+    <!-- Registration Form -->
+    <section id="registration">
+        <h2>Student Registration Form</h2>
+
+        <form class="registraion-form" action="/register" method="post" enctype="multipart/form-data">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" class="input-field" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input-field" name="email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="input-field" name="password" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" class="input-field" name="phone">
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" class="input-field" name="dob">
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" class="input-field" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" class="input-field" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department" class="input-field">
+                <option value="">Select Department</option>
+                <option value="BSSE">BSSE</option>
+                <option value="BSAI">BSAI</option>
+                <option value="BSDS">BSDS</option>
+            </select>
+            <br><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" class="input-field" name="address" rows="3"></textarea>
+            <br><br>
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" class="input-field" id="photo" name="photo">
+            <br><br>
+
+            <label for="city">City:</label>
+            <input type="text" class="input-field" id="city" name="city">
+            <br><br>
+
+            <input type="checkbox" class="input-field" id="agree" name="agree" required>
+            <label for="agree">
+                I agree to the terms and conditions.
+            </label>
+            <br><br>
+
+            <button type="submit" class="input-field button">Register</button>
+            <button type="reset" class="input-field button">Reset</button>
+
+        </form>
+    </section>
+</body>
+
+</html>
